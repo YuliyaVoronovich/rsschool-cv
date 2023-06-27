@@ -1,4 +1,4 @@
-# ** Julia Voronovich**
+# Julia Voronovich
 ----
 
 ## Contacts: 
