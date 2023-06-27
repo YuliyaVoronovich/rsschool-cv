@@ -1,6 +1,7 @@
 # Julia Voronovich
 
 ----
+
 ## Contacts: 
 - E-mail: ylenka13@gmail.com
 - Phone: +375297624018
@@ -9,11 +10,14 @@
 - Discord: Julia (@yuliyavoronovich)
 
 ----
+
 ## About myself:
-Easy learning, hardworking. Capable of working under time pressure and stress conditions
-Committed team player, self-motivated
-I have experience in programming, but not commercial and there was a big break in work (3 years). I want to take up a clean front, learn new technologies, deepen my knowledge.
+ Easy learning, hardworking. Capable of working under time pressure and stress conditions
+ Committed team player, self-motivated
+ I have experience in programming, but not commercial and there was a big break in work (3 years). I want to take up a clean front, learn new technologies, deepen my knowledge.
+
 ----
+
 ## Skills:
 - Programming Languages:	PHP>5, SQL, JS, HTML/CSS 
 - IDE:	PHPStorm, WebStorm 
@@ -59,6 +63,7 @@ Belarusian State University of Informatics and Radioelectronics.
 Speciality - Information Technology Engineer 
 
 ----
+
 ## English:
 
 Pre-Intermediate (А2)
