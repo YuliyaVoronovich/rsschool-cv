@@ -1,3 +1,3 @@
 # rsschool-cv
 
-[https://YuliyaVoronovich.github.io/rsschool-cv/cv](https://YuliyaVoronovich.github.io/rsschool-cv/cv)
+[Jliya Voronovich CV](https://YuliyaVoronovich.github.io/rsschool-cv/cv)
