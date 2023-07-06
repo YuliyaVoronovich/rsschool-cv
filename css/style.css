@@ -80,15 +80,20 @@ body {
     font-size: 20px;
     padding: 5px;
 }
+.left-section h2 {
+    color: #bbbbbb;
+}
 .right-section h2 {
     background: #e6dddd;
 }
-.contact-list {
+.contact-list,
+.skills-list {
     padding: 5px;
     list-style: none;
     color: #ffffff;
 }
-.contact-list .contact-item-text {
+.contact-list .contact-item-text,
+.skills-list .skills-item-text {
     font-size: 14px;
 }
 @media (max-width: 768px) {
