@@ -5,8 +5,9 @@
 }
 body {
     font-family: 'Cabin', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
+    text-align: justify;
     line-height: 1.5;
     color: #4f4d4d;
 }
@@ -14,7 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    max-width: 768px;
+    max-width: 960px;
     min-height: 100vh;
     margin: 0 auto;
     background: rgba(239, 226, 239, 0.2);
@@ -34,9 +35,11 @@ body {
     background: #6B9999;
     width: 30%;
 }
-.main-photo {
-    padding: 10px 15px 0 15px;
+.main-photo {   
     width: 30%;
+    padding: -5px;
+    margin-top: -10px;
+    text-align: center;
 }
 .main-name {
     display: flex;
@@ -70,13 +73,13 @@ body {
     margin-right: 15px;
 }
 .nav-item .nav-link {
-    color: #F5F0EA;
+    color: #f6f5f5;
     text-decoration: none;
 }
 .left-section{
     margin: 0 0 20px 0;
-    font-size: 14px;
-    color: #ffffff;
+    font-size: 16px;
+    color: #f6f5f5;
 }
 .right-section{
     margin: 0 0 20px 10px;
@@ -98,6 +101,12 @@ body {
 .right-section h2 {
     background: #f5eaea;
 }
+.right-section p {
+    padding: 5px 5px 0 5px;
+}
+.right-section .work-year {
+    color: #6B9999;
+}
     
 .contact-list,
 .skills-list {
@@ -108,11 +117,20 @@ body {
     padding: 10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 560px) {
     .main-photo,
     .main-menu,
     .left-side,
     .right-side {
+        width: 100%;
+    }
+    .main-photo {   
+        margin: 0;
+        text-align: left;
+    }
+    .main-name {
+        font-size: 16px;
+        padding-left: 20px;
         width: 100%;
     }
 }
