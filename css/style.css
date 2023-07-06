@@ -23,17 +23,15 @@ body {
 .header {
      display: flex;
      flex-wrap: wrap;
- }
-
-.right-side {
-   /* background: #ffdcd8;*/
-    width: 70%;
 }
 .footer {
-    background: #809BA8;
+    background: #3c7090;
+}
+.right-side {
+    width: 70%;
 }
 .left-side {
-    background: #F5F0EA;
+    background: #dee2e6;
     width: 30%;
 }
 .main-photo {
@@ -47,7 +45,7 @@ body {
     width: 100%;
 }
 .nav {
-    background: #809BA8;
+    background: #3c7090;
 }
 .main-menu{
     display: flex;
@@ -77,11 +75,8 @@ body {
     margin: 20px 10px;
 }
 .side-square {
-    display: inline-block;
-    width: 15px;
-    height: 15px;
     margin-right: 10px;
-    background: #8c9db8;
+    color: #8c9db8;
 }
 .left-section h2,
 .right-section h2{
@@ -89,7 +84,7 @@ body {
     padding: 5px;
 }
 .right-section h2 {
-    background: #F5F0EA;
+    background: #dee2e6;
 }
 
 
