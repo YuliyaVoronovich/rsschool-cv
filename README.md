@@ -1,2 +1,3 @@
 # rsschool-cv
-repository for my CV
+
+[Jlia Voronovich CV](https://YuliyaVoronovich.github.io/rsschool-cv/)

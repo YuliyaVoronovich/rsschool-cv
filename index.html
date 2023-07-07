@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="assets/img/favicon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@100;300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/fontawesome-free-6.4.0-web/css/fontawesome.min.css">
+  <link href="assets/fontawesome-free-6.4.0-web/css/brands.css" rel="stylesheet">
+  <link href="assets/fontawesome-free-6.4.0-web/css/solid.css" rel="stylesheet">
+  <title>CV</title>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a class="nav-link" href="#contacts">Contacts</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experiance">Experiance</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        </ul>
+      </nav>
+      <div class="main-menu">
+        <div class="main-photo"><img src="assets/img/photo_cv.png" alt="Главное фото" height="250" width="184">
+        </div>
+        <div class="main-name">
+          <h1>Julia Voronovich</h1>
+          <p>IT Engineer</p>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="left-side">
+        <section class="left-section" id="contacts">
+          <h2>CONTACTS</h2>
+            <ul class="contact-list">
+              <li class="contact-item"><i class="side-icon fa-regular fa-envelope"></i>ylenka13@gmail.com</li>
+              <li class="contact-item"><i class="side-icon fa-regular fa-phone"></i>+375297624018</li>
+              <li class="contact-item"><i class="side-icon fa-regular fa-map-marker"></i>7 Aladovuh St., Minsk</li>
+              <li class="contact-item"><i class="side-icon fa-brands fa-linkedin"></i>linkedin</li>
+              <li class="contact-item"><i class="side-icon fa-brands fa-discord" aria-hidden="true"></i>Julia (@yuliyavoronovich)</li>
+            </ul>
+        </section>
+        <section class="left-section" id="skills">
+          <h2>SKILLS</h2>
+            <ul class="skills-list">
+              <li class="skills-item">PHP>5, SQL, JS, HTML/CSS</li>
+              <li class="skills-item">CodeIgniter, Laravel 5</li>
+              <li class="skills-item">Angular 2+</li>
+              <li class="skills-item">Composer, Bootstrap</li>
+              <li class="skills-item">Yandex Api</li>
+              <li class="skills-item">MySQL</li>
+              <li class="skills-item">AJAX, XML, parsing, Redmine</li>
+              <li class="skills-item">GIT</li>
+            </ul>
+        </section>
+        <section class="left-section" id="education">
+          <h2>EDUCATION</h2>
+          <p class="education">BSUIR, <br> Speciality - Information Technology Engineer</p>
+        </section>
+      </div>
+      <div class="right-side">
+        <section class="right-section" id="profile">
+          <h2>About me</h2>
+          <p>Easy learning, hardworking. Capable of working under time pressure and stress conditions Committed team player, self-motivated I have experience in programming, but not commercial and there was a big break in work (3 years). I want to take up a clean front, learn new technologies, deepen my knowledge.</p>
+        </section>
+        <section class="right-section" id="experiance">
+          <h2>Work experiance</h2>
+          <p><i class="side-icon fa-solid fa-square"></i><span class="work-year">12.2012 – 04.2023</span> – IT Engineer, OOO “Belan technology”<br>responsibilities:<br>Development CRM and site (Based on the framework CodeIgniter)<br>Development MLS System (Based on the framework Laravel 5 and Angular 2+)<br>Testing<br>Frond-end<br>Support</p>
+          <p><i class="side-icon fa-solid fa-square"></i><span class="work-year">10.2013 –03.2014</span> – Freelancing<br>responsibilities:<br>Transfer of the site to CMS DRUPAL creation on the basis of the site of the Internet store with the help of Drupal.</p>
+        </section>
+        <section class="right-section" id="projects">
+          <h2>Project</h2>
+          <ul class="project-list">
+            <li class="project-item"><a href="https://mls.belan.by" target="_blank"><img src="assets/img/projects/mls.png" alt="MLS project" width="250" height="120"></a><span>MLS project</span></li>
+            <li class="project-item"><a href="https://crm.molnar.by" target="_blank"><img src="assets/img/projects/crm.png" alt="CRM project" width="250" height="120"></a><span>CRM project</span></li>
+            <li class="project-item"><a href="https://molnar.by" target="_blank"><img src="assets/img/projects/molnar.png" alt="Сайт Molnar.by" width="250" height="120"></a><span>Molnar.by</span></li>
+          </ul>
+        </section>
+        <section class="right-section" id="code">
+          <h2>Code example</h2>
+          <pre><code>
+    (".choiсe-flat").click(function() {
+      path=$(this).prev();
+      if(path.is(':checked')) {
+        path.attr("checked", false);
+        $(this).removeClass("star-check");
+      } else {
+        path.attr("checked", true);
+        $(this).addClass("star-check");
+      }
+    });
+          </code></pre>
+        </section>
+        <section class="right-section" id="english">
+          <h2>ENGLISH</h2>
+          <p>Pre-Intermediate (А2)</p>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="link-github"><a href="https://github.com/YuliyaVoronovich" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a></div>
+      <div class="year">2023</div>
+      <div class="logo"><a href="https://rs.school/js/" target="_blank"><img src="assets/img/rs_school_logo.svg" alt="Логотип" height="50" width="100"></a></div>
+    </footer>
+  </div>
+</body>
+</html>
