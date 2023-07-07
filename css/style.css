@@ -24,12 +24,35 @@ body {
     background: rgba(239, 226, 239, 0.2);
 }
 .main,
-.header {
+.header,
+.footer {
      display: flex;
      flex-wrap: wrap;
 }
 .footer {
- 
+    justify-content: center;
+    background: #4f4d4d;
+}
+.footer div {    
+    flex-wrap: inherit;
+    justify-content: flex-end;
+    align-content: center;
+    width: 30%;
+    display: flex;
+    color: #f5eaea;
+}
+.footer div:first-child {  
+    justify-content: center; 
+}
+.footer div:last-child {
+    width: 40%;    
+}
+.footer .link-github a {
+    text-decoration:none;
+    color: #f5eaea;
+}
+.logo a{
+    padding: 5px 10px 0 0;
 }
 .right-side {
     width: 70%;
@@ -83,6 +106,31 @@ body {
 .nav-item .nav-link:hover {
     color: #4f4d4d;
 }
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;    
+    list-style: none;
+    padding: 10px;
+}
+.project-list .project-item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center; 
+    margin: 5px;
+}
+.project-list .project-item a {
+    text-decoration: none;
+}
+.project-item {
+    border: 1px solid #6B9999;
+    border-radius: 5px;
+}
+.project-item img{
+    padding: 8px;
+}
 .left-section{
     margin: 0 0 20px 0;
     font-size: 16px;
@@ -128,8 +176,10 @@ body {
     .main-photo,
     .main-menu,
     .left-side,
-    .right-side {
+    .right-side ,
+    .footer div{
         width: 100%;
+        justify-content: center; 
     }
     .main-photo {   
         margin: 0;
