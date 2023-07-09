@@ -42,7 +42,7 @@ body {
 
 .nav {
   box-shadow: 1px 4px 8px 0px;  
-  background: #6B9999;
+  background: #3c7090;
 }
 
 .nav-list {
@@ -108,7 +108,7 @@ body {
 }
 
 .left-side {
-  background: #6B9999;
+  background: #3c7090;
   width: 30%;
 }
 
@@ -137,7 +137,7 @@ body {
 }
 
 .right-section .work-year {
-  color: #6B9999;
+  color: #3c7090;
 }
 
 .contact-list,
@@ -172,7 +172,7 @@ body {
 }
 
 .project-item {
-  border: 1px solid #6B9999;
+  border: 1px solid #3c7090;
   border-radius: 5px;
 }
 
