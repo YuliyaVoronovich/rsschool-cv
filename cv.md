@@ -19,7 +19,7 @@
 ----
 
 ## Skills:
-- Programming Languages:	PHP>5, SQL, JS, HTML/CSS 
+- Programming Languages:	PHP&gt;5, SQL, JS, HTML/CSS 
 - IDE:	PHPStorm, WebStorm 
 - Editor:	DreamWeaver 
 - OS: 	Windows 
